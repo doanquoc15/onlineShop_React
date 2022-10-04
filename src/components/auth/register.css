@@ -1,0 +1,74 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    box-shadow: 10px 10px 5px rgb(155, 155, 155);
+    background-size: cover;
+    background-image: url("../../image/login-img.jpg");
+}
+
+.login-text {
+    text-transform: uppercase;
+    letter-spacing: 3.8px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.login-form {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin: auto;
+}
+
+.form-group>input,
+.btn-sign-in {
+    width: 400px;
+    background-color: rgb(88, 88, 88);
+    border-radius: 16px;
+    padding: 8px 8px;
+    border: none;
+    color: white;
+    outline: none;
+    transition: all 1s;
+}
+
+.form-group label {
+    color: rgb(255, 255, 255);
+}
+
+.form-group input:focus {
+    background-color: transparent;
+    outline: 0;
+    border: 1px solid red;
+}
+
+.btn-sign-in {
+    margin: auto;
+    background-color: rgb(8, 196, 196);
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+.error-display {
+    color: red;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
